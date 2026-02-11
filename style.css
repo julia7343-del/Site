@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.layout {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.layout td {
+  border: 3px solid black;
+}
+
+/* LOGO */
+.top-left {
+  width: 160px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 200px;
+}
+
+/* VÍDEO */
+.header {
+  height: 200px;
+  padding: 0;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+/* MENU */
+.sidebar {
+  width: 160px;
+  padding: 15px;
+  vertical-align: top;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu button {
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+  background: #eee;
+}
+
+.menu button:hover {
+  background: #ccc;
+}
+
+/* CONTEÚDO */
+.content {
+  padding: 20px;
+}
+
+/* LOGIN */
+input {
+  width: 250px;
+  padding: 6px;
+}
+
+button {
+  padding: 8px 15px;
+}

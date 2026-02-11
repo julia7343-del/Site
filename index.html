@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Site - Julia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<table class="layout">
+  <tr>
+    <!-- LOGO -->
+    <td class="top-left">
+      <img src="logo.png" class="logo">
+    </td>
+
+    <!-- VÍDEO -->
+    <td class="header">
+      <video class="video" autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+    </td>
+  </tr>
+
+  <tr>
+    <!-- MENU -->
+    <td class="sidebar">
+      <div class="menu">
+        <button onclick="home()">Home</button>
+        <button onclick="mostrarLogin()">Login</button>
+        <button onclick="dados()">Dados</button>
+        <button onclick="Mobile()">Mobile</button>
+      </div>
+    </td>
+
+    <!-- CONTEÚDO -->
+    <td class="content" id="conteudo">
+      <h2>Bem-vindo</h2>
+      <p>Use o menu lateral.</p>
+    </td>
+  </tr>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
